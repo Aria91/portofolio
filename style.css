@@ -1,0 +1,197 @@
+/* General styles */
+body {
+  color: #40616b;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color: #d2f3fd;
+}
+
+h1,
+h2 {
+  margin: 0;
+  text-align: center;
+  font-family: Albert Sans;
+}
+
+/* General title styling */
+.title1,
+.title3 {
+  font-size: 4rem;
+  color: #c4c4c4; /* Light gray color */
+  font-family: "Albert Sans", cursive;
+  margin-top: 5rem;
+}
+
+.title2,
+.profile1 {
+  font-size: 2rem;
+  color: #5e4f4f; /* Soft brown color */
+  margin-left: 2rem;
+  font-family: Albert Sans;
+}
+
+.title4,
+.tx-hello {
+  font-size: 3rem;
+  color: #5e4f4f; /* Soft brown color */
+  margin-top: 15rem;
+  display: flex;
+  justify-content: center;
+  font-family: Albert Sans;
+}
+
+.tx-hello {
+  gap: 15px;
+  font-family: Albert Sans;
+}
+
+.profile2 {
+  font-size: 1.5rem;
+  color: #5e4f4f; /* Soft brown color */
+  font-family: Albert Sans;
+}
+
+/* Image styling */
+img {
+  width: 350px;
+  margin-bottom: 10rem;
+}
+
+.next-img {
+  width: 200px; /* Example width */
+  height: auto; /* Maintain aspect ratio */
+  transform: scaleX(-1); /* Horizontal mirror */
+}
+
+/* Flexbox container and column adjustments */
+.flex-container {
+  display: flex;
+  gap: 40px; /* Adjust spacing between columns */
+  justify-content: center; /* Center columns */
+}
+
+.column {
+  flex: 0 0 35%; /* Width of each column */
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Spacing between items */
+  text-align: left; /* Left-align text */
+  margin-top: 3rem; /* Distance from title */
+  margin-left: 6rem; /* Distance from title */
+}
+
+.service strong {
+  text-align: left; /* Left-align strong elements */
+  display: block; /* Full width for strong elements */
+}
+
+/* Styling for middle container */
+.middle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align items */
+  text-align: center; /* Center-align text */
+  padding: 2rem; /* Padding around section */
+}
+
+.middle-container img {
+  margin-bottom: 1rem; /* Space below profile image */
+}
+
+.middle-container .title3 {
+  margin-top: 1rem; /* Space above "Hello!" */
+  font-size: 3rem; /* Font size adjustment */
+}
+
+.middle-container .profile1 {
+  margin-top: 5rem; /* Space above profile description */
+  font-size: 1.8rem; /* Font size for readability */
+}
+
+.middle-container .profile2 {
+  margin-top: 1rem; /* Space between profile1 and profile2 */
+  font-size: 1.5rem; /* Font size adjustment */
+
+  font-family: Albert Sans;
+}
+
+/* Footer styling */
+footer {
+  padding: 2rem 0; /* Padding for spacing */
+  font-family: Albert Sans;
+}
+
+.email-link {
+  display: flex;
+  align-items: center; /* Center-align email icon */
+  justify-content: center; /* Center-align email icon */
+  color: #ffffff; /* White text color */
+  background-color: #40616b; /* Background color */
+  padding: 1rem 2rem; /* Padding around link */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  font-size: 1.2rem; /* Font size adjustment */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.email-link:hover {
+  background-color: #304c56; /* Darker background on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.email-link svg {
+  margin-left: 0.5rem; /* Space between text and icon */
+}
+
+/* Profile section styling */
+.profile-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.profile-text {
+  max-width: 500px; /* Maximum width for text block */
+  font-family: Albert Sans;
+}
+
+.profile-text h1,
+.profile-text h2 {
+  margin: 0;
+  font-family: Albert Sans;
+}
+
+/* Service card styling */
+.service {
+  border: 1px solid #ccc; /* Border color */
+  padding: 1rem; /* Padding inside service cards */
+  border-radius: 8px; /* Rounded corners */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+  font-family: Albert Sans;
+}
+
+.service:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+/* Carousel container */
+.carousel-container {
+  max-width: 1200px; /* Maximum width */
+  margin: 20px auto; /* Center the container */
+  padding: 20px; /* Padding inside container */
+}
+
+/* Additional styling for paragraphs */
+.text_paragraph {
+  display: flex;
+  text-align: left; /* Align text to left */
+  font-family: Albert Sans;
+}
+
+/* Media query for small screens */
+@media (max-width: 350px) {
+  /* Add styles for very small screens here */
+}
